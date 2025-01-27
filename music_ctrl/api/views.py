@@ -6,5 +6,5 @@ from .models import Room
 # Create your views here.
 
 class RoomView(generics.ListAPIView):
-    queryest = Room.objects.all()
-    serializer_calss = RoomSerializer
+    queryset = Room.objects.all()
+    serializer_class = RoomSerializer
